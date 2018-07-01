@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2" >
+
+<LinearLayout
+    android:id="@+id/logo_layout"
+    android:layout_above="@id/login_progress"
+    android:padding="@dimen/dp20"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dp200"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo_image" />
+
+</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp40"
+        android:layout_marginTop="@dimen/dp30"
+        android:visibility="invisible"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_below="@id/login_progress"
+        android:layout_centerHorizontal="true"
+        app:buttonSize="wide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dp20"
+        android:contentDescription="@string/about" />
+
+</RelativeLayout>

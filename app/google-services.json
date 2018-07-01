@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "949462105068",
+    "firebase_url": "https://journal-bay.firebaseio.com",
+    "project_id": "journal-bay",
+    "storage_bucket": "journal-bay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949462105068:android:c0921b99b7ef43bf",
+        "android_client_info": {
+          "package_name": "com.example.kenzdozz.journalbay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949462105068-nsd0e6usee94p78ttclccbkc32616os2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kenzdozz.journalbay",
+            "certificate_hash": "e8e6bc24e85b1fecb615ce3c26876119c5ef56a2"
+          }
+        },
+        {
+          "client_id": "949462105068-tdobmasp6e6l9978helq258mvekppt4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYAiV5vAbXk5vhYCbf-zLXLFjFz7HiGBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949462105068-tdobmasp6e6l9978helq258mvekppt4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

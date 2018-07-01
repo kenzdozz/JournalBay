@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Journal Bay</string>
+    <string name="oauth_client_id">949462105068-tdobmasp6e6l9978helq258mvekppt4b.apps.googleusercontent.com</string>
+    <string name="empty_fields">Title and body cannot be empty!</string>
+    <string name="title_hint">Title</string>
+    <string name="body_hint">Body</string>
+    <string name="stick_to_top">Stick to top</string>
+    <string name="journal_empty">Journal Empty!!!</string>
+    <string name="logo_image">Logo image</string>
+    <string name="top_image">Top image</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="about">About</string>
+    <string name="about_text">
+        Journal Bay is a Journal App. It serves as a diary where you can add notes, view notes, edit and delete a note.
+        Important notes can also be pinned to the top. \n\n
+        Users can register and login using Google account. \n\n
+        To delete a note from the notes list, you swipe to the left. Swiping to the right lets you edit the note.\n\n
+        This App was Developed by Kenneth Chidozie (KENZiE) for Andela Learning Community 3.0 #7DaysofCodeChallenge.
+    </string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/clear_green"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp8"
+            android:paddingEnd="@dimen/dp16"
+            android:paddingStart="@dimen/dp16"
+            android:paddingTop="@dimen/dp16"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp26"
+            tools:text="Hello to You!" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:background="@color/clear_green"
+            android:gravity="end"
+            android:paddingBottom="@dimen/dp16"
+            android:paddingEnd="@dimen/dp16"
+            android:paddingStart="@dimen/dp16"
+            tools:text="3 mins ago" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+            android:layout_below="@id/date"
+            android:background="@color/colorPrimaryHome" />
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:padding="@dimen/dp16"
+            android:textSize="@dimen/sp20"
+            tools:text="The test body here" />
+
+    </RelativeLayout>
+
+</ScrollView>
